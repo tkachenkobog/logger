@@ -3,7 +3,6 @@
 import { signOut } from "next-auth/react";
 
 export default function Menu({ userSession }) {
-	console.log(userSession);
 	return (
 			<div className="w-full">
 				{userSession ? (
